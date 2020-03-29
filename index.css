@@ -1,0 +1,122 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright{
+    position: relative;
+    bottom: right;
+    text-align: center;
+}
+#header-button{
+    background-color:#ecf3f6 !important;
+    border-radius: 36px;
+    font-size: 1em;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: none;
+   
+}
+#logo {
+    width: 140px;
+    height: 26px;
+}
+.first-content{
+    background: url("images/bg-hero-desktop.svg");
+    
+}
+#content-column1-button{
+    background-color: #f352c8;
+    border-radius: 36px;
+    font-size: 1em;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: none;
+    color: #e9e5e5;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.content-column1{
+    flex:40%;
+}
+.content-column2{
+    flex:55%;
+}
+.content-column1{
+   padding-top: 100px;
+}
+.content img{
+    width: 100%;
+}
+.cards{
+    padding: 100px;
+}
+.card{
+    margin-bottom: 35px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+    box-shadow: 0px 0px 16px 1px rgb(221, 214, 221);
+    color: #254c6e;
+}
+#card-text{
+    flex:60%;
+    padding-top: 50px ;
+    padding-left: 40px;
+}
+#card-img{
+    flex: 30%;
+    justify-content: end;
+}
+#card-img img{
+    width: 80%;
+}
+
+#card-build-community{
+    box-shadow: 0px 0px 16px 1px rgb(221, 214, 221);
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    border-radius: 10px;
+    padding:40px;
+    margin-bottom: 10px;
+}
+#card-build-community-title{
+    color: #254c6e;
+    font-size: 1.8em;
+}
+footer{
+    margin-left: -8px;  
+    margin-right: -8px;  
+    margin-bottom: -8px;  
+    background-color: rgb(14, 36, 65);
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    color: white;
+    padding:20px;
+}
+.footer-column1{
+    padding-left: 30px;
+    flex:30%;
+}
+.footer-column2{
+    flex:30%;
+}
+.footer-column3{
+    flex:30%;
+}
